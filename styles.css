@@ -1,0 +1,44 @@
+/* *{
+    border: 1px solid red;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: 1px solid black;
+    height: 32px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.card{
+    max-width: 300px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+.image-container{
+    width: 100%;
+}
+.image-container img{
+    width: 100%;
+}
+.description{
+    margin: 16px;
+}
