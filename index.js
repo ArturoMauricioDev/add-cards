@@ -1,4 +1,4 @@
-import {getRandomInt} from './random'
+import {getRandomInt} from './random.js'
 
 
 const createCardNode = ()=>{
