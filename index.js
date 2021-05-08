@@ -4,7 +4,7 @@ import getRandomInt from './random'
 const createCardNode = ()=>{
     const imagen = document.createElement("img")
     // debugger
-    imagen.src=`https://source.unsplash.com/random/${getRandomInt()}` //todo random
+    imagen.src=`https://source.unsplash.com/random/${getRandomInt()}` 
     const imageContainer = document.createElement("div")
     imageContainer.className = "image-container"
     const parrafo = document.createElement("p")

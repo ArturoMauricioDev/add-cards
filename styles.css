@@ -32,12 +32,14 @@ button:hover{
     border: 1px solid #dfdfdf;
     border-radius: 10px;
     margin-bottom: 32px;
+    overflow: hidden;
 }
 .image-container{
     width: 100%;
 }
 .image-container img{
     width: 100%;
+   
 }
 .description{
     margin: 16px;
